@@ -1,6 +1,8 @@
 <h2>Result</h2>
 
 <p><%= @response %></p>
+<p>Your final score is... <strong><%= @final_score.round(2) %></strong></p>
+<p>Your overall score is: <%= @total_score.round(2) %></p>
 
 <br>
 <%= link_to 'Play again', new_path %>
